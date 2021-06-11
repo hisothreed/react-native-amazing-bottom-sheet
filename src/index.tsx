@@ -38,7 +38,7 @@ interface BottomSheetProps {
   dismissOnMomentumPull?: boolean;
   dismissOnPullExtend?: boolean;
 
-  handleStyle: StyleProp<ViewStyle>;
+  handleStyle?: StyleProp<ViewStyle>;
 
   onDismiss?: {(): void};
   getShortFormHeight?: () => number;
